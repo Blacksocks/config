@@ -12,9 +12,9 @@ You can just use the script (```sudo ./install.sh```) or follow the next steps.
 Put ```config``` file into ```~/.config/i3/```
 
 ### zsh
-Put ```.zshrc``` into ```~/```  
+Put ```.zshrc``` file into ```~/```  
 If you want to use oh-my-zsh, you can add the theme:  
-Put ```blacksocks.zsh-theme``` into ```~/.oh-my-zsh/themes```
+Put ```blacksocks.zsh-theme``` file into ```~/.oh-my-zsh/themes/```
 
 ### vim
-Put ```.vimrc``` into ```~/```
+Put ```.vimrc``` file into ```~/```
