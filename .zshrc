@@ -2,28 +2,9 @@
 # ===================== ALIAS ===========================
 # =======================================================
 
-alias atom="/snap/bin/atom"
-alias a="atom ."
-alias tpt="cd ~/Documents/tpt"
-alias se="tpt && cd rose/software/stealth_drop"
-alias nut="cd ~/Documents/robotics/Nutella"
-alias spyder="cd ~/Documents/projects/Spyder/Soft"
-alias cv="cd ~/Documents/projects/CV/pdf"
 alias logout="i3-msg exit"
 alias shut="sudo shutdown -h 0"
 alias reboot="sudo shutdown -r 0"
-alias android="/opt/android-studio/bin/studio.sh &" # android studio launcher
-
-# =======================================================
-# ====================== ZEPHYR =========================
-# =======================================================
-
-export ZEPHYR_SDK_INSTALL_DIR=/home/blacksocks/zephyr
-export ZEPHYR_BASE=/home/blacksocks/zephyr
-# Update cmake and arm-none-eabi- path
-export PATH=~/zephyr/build/konfig:~/tools/cmake-3.8.2-Linux-x86_64/bin:~/tools/gcc-arm-none-eabi-6-2017-q2-update/bin:$PATH
-export GCCARMEMB_TOOLCHAIN_PATH="/home/blacksocks/tools/gcc-arm-none-eabi-6-2017-q2-update/"
-export ZEPHYR_GCC_VARIANT=gccarmemb
 
 # =======================================================
 # ==================== OH MY ZSH ========================
@@ -33,7 +14,7 @@ export ZEPHYR_GCC_VARIANT=gccarmemb
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/blacksocks/.oh-my-zsh
+export ZSH=/home/blacksocks/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
