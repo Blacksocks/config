@@ -1,20 +1,20 @@
 # Configuration files for linux
 
+## What is installed?
+- i3
+- vim
+- git
+- gitk
+- zsh
+- oh-my-zsh
+
 ## What is configured?
 - i3
 - zsh
 - vim
 
 ## Getting started
-You can just use the script (```sudo ./install.sh```) or follow the next steps.
-
-### i3
-Put ```config``` file into ```~/.config/i3/```
-
-### zsh
-Put ```.zshrc``` file into ```~/```  
-If you want to use oh-my-zsh, you can add the theme:  
-Put ```blacksocks.zsh-theme``` file into ```~/.oh-my-zsh/themes/```
-
-### vim
-Put ```.vimrc``` file into ```~/```
+Follow these steps:
+- ```sudo ./install-1.sh```
+- restart computer
+- ```sudo ./install-2.sh```
