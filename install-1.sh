@@ -5,6 +5,6 @@ sudo apt-get install vim
 sudo apt-get install git
 sudo apt-get install gitk
 sudo apt-get install feh
-sudo apt-get install clang
+sudo apt-get install clang-format
 sudo apt-get install zsh
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
